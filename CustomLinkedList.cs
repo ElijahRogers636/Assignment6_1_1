@@ -26,6 +26,7 @@ namespace Assignment6_1_1
             if (Head == null)
             {
                 Head = new_node;
+                Length++;
                 return;
             }
 
